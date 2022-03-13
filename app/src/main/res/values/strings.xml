@@ -1,3 +1,12 @@
 <resources>
     <string name="app_name">TodoApp</string>
+    <string name="call_list">Call List</string>
+    <string name="buy_list">Buy List</string>
+    <string name="sell_list">Sell List</string>
+    <string name="menu_title">Menu</string>
+    <string name="base_url">https://my-json-server.typicode.com/imkhan334/demo-1/</string>
+    <string name="name">Name: %1$s</string>
+    <string name="number">Number: %1$s</string>
+    <string name="price">Price: %1$d</string>
+    <string name="quantity">Quantity: %1$d</string>
 </resources>

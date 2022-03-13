@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".main.MainActivity">
+
+        <Button
+            android:id="@+id/btnCallList"
+            android:layout_width="@dimen/button_width"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/top_margin"
+            android:text="@string/call_list"
+            style="@style/HeaderFont"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"/>
+
+        <Button
+            android:id="@+id/btnBuyList"
+            android:layout_width="@dimen/button_width"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/top_margin"
+            android:text="@string/buy_list"
+            style="@style/HeaderFont"
+            app:layout_constraintTop_toBottomOf="@id/btnCallList"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"/>
+
+        <Button
+            android:id="@+id/btnSellList"
+            android:layout_width="@dimen/button_width"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/top_margin"
+            android:text="@string/sell_list"
+            style="@style/HeaderFont"
+            app:layout_constraintTop_toBottomOf="@id/btnBuyList"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"/>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>
